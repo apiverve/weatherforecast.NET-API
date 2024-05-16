@@ -38,13 +38,13 @@ public class current
     public double tempC { get; set; }
 
     [JsonProperty("tempF")]
-    public double tempF { get; set; }
+    public int tempF { get; set; }
 
     [JsonProperty("windMph")]
     public double windMph { get; set; }
 
     [JsonProperty("windKph")]
-    public int windKph { get; set; }
+    public double windKph { get; set; }
 
     [JsonProperty("windDegree")]
     public int windDegree { get; set; }
@@ -68,7 +68,7 @@ public class current
     public double feelslikeC { get; set; }
 
     [JsonProperty("feelslikeF")]
-    public double feelslikeF { get; set; }
+    public int feelslikeF { get; set; }
 
     [JsonProperty("visKm")]
     public int visKm { get; set; }
@@ -80,7 +80,7 @@ public class current
     public double gustMph { get; set; }
 
     [JsonProperty("gustKph")]
-    public int gustKph { get; set; }
+    public double gustKph { get; set; }
 
 }
 
@@ -106,7 +106,7 @@ public class day
     public double mintempc { get; set; }
 
     [JsonProperty("mintemp_f")]
-    public int mintempf { get; set; }
+    public double mintempf { get; set; }
 
     [JsonProperty("avgtemp_c")]
     public double avgtempc { get; set; }
@@ -115,7 +115,7 @@ public class day
     public double avgtempf { get; set; }
 
     [JsonProperty("maxwind_mph")]
-    public int maxwindmph { get; set; }
+    public double maxwindmph { get; set; }
 
     [JsonProperty("maxwind_kph")]
     public double maxwindkph { get; set; }
