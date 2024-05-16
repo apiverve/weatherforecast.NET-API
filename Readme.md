@@ -101,68 +101,68 @@ if(response.error != null) {
       "lat": 37.78,
       "lon": -122.42,
       "tz_id": "America/Los_Angeles",
-      "localtime_epoch": 1715571274,
-      "localtime": "2024-05-12 20:34"
+      "localtime_epoch": 1715809997,
+      "localtime": "2024-05-15 14:53"
     },
     "current": {
-      "tempC": 13.3,
-      "tempF": 55.9,
-      "windMph": 13.6,
-      "windKph": 22,
-      "windDegree": 280,
-      "windDir": "W",
-      "pressureMb": 1014,
-      "pressureIn": 29.93,
+      "tempC": 17.2,
+      "tempF": 63,
+      "windMph": 16.1,
+      "windKph": 25.9,
+      "windDegree": 300,
+      "windDir": "WNW",
+      "pressureMb": 1013,
+      "pressureIn": 29.91,
       "precipMm": 0,
       "precipIn": 0,
-      "feelslikeC": 11.9,
-      "feelslikeF": 53.4,
-      "visKm": 14,
-      "visMiles": 8,
-      "gustMph": 14.3,
-      "gustKph": 23
+      "feelslikeC": 17.2,
+      "feelslikeF": 63,
+      "visKm": 16,
+      "visMiles": 9,
+      "gustMph": 20.6,
+      "gustKph": 33.1
     },
     "forecast": {
       "forecastday": [
         {
-          "date": "2024-05-12",
-          "date_epoch": 1715472000,
+          "date": "2024-05-15",
+          "date_epoch": 1715731200,
           "day": {
-            "maxtemp_c": 15.7,
-            "maxtemp_f": 60.2,
-            "mintemp_c": 11.7,
-            "mintemp_f": 53,
-            "avgtemp_c": 13.3,
-            "avgtemp_f": 55.9,
-            "maxwind_mph": 13,
-            "maxwind_kph": 20.9,
-            "totalprecip_mm": 0.12,
+            "maxtemp_c": 16.7,
+            "maxtemp_f": 62.1,
+            "mintemp_c": 10.9,
+            "mintemp_f": 51.6,
+            "avgtemp_c": 13.6,
+            "avgtemp_f": 56.6,
+            "maxwind_mph": 13.2,
+            "maxwind_kph": 21.2,
+            "totalprecip_mm": 0.06,
             "totalprecip_in": 0,
             "totalsnow_cm": 0,
             "avgvis_km": 10,
             "avgvis_miles": 6,
-            "avghumidity": 82,
-            "daily_will_it_rain": 1,
-            "daily_chance_of_rain": 83,
+            "avghumidity": 80,
+            "daily_will_it_rain": 0,
+            "daily_chance_of_rain": 0,
             "daily_will_it_snow": 0,
             "daily_chance_of_snow": 0,
             "condition": {
-              "text": "Patchy rain nearby",
-              "code": 1063
+              "text": "Sunny",
+              "code": 1000
             },
             "uv": 9
           }
         },
         {
-          "date": "2024-05-13",
-          "date_epoch": 1715558400,
+          "date": "2024-05-16",
+          "date_epoch": 1715817600,
           "day": {
-            "maxtemp_c": 15.3,
-            "maxtemp_f": 59.5,
-            "mintemp_c": 11,
-            "mintemp_f": 51.8,
-            "avgtemp_c": 12.8,
-            "avgtemp_f": 55,
+            "maxtemp_c": 17.3,
+            "maxtemp_f": 63.1,
+            "mintemp_c": 12,
+            "mintemp_f": 53.5,
+            "avgtemp_c": 14,
+            "avgtemp_f": 57.2,
             "maxwind_mph": 12.8,
             "maxwind_kph": 20.5,
             "totalprecip_mm": 0.06,
@@ -176,30 +176,30 @@ if(response.error != null) {
             "daily_will_it_snow": 0,
             "daily_chance_of_snow": 0,
             "condition": {
-              "text": "Partly Cloudy ",
-              "code": 1003
+              "text": "Sunny",
+              "code": 1000
             },
             "uv": 8
           }
         },
         {
-          "date": "2024-05-14",
-          "date_epoch": 1715644800,
+          "date": "2024-05-17",
+          "date_epoch": 1715904000,
           "day": {
-            "maxtemp_c": 16.7,
-            "maxtemp_f": 62.1,
-            "mintemp_c": 10.5,
-            "mintemp_f": 50.8,
-            "avgtemp_c": 13.2,
-            "avgtemp_f": 55.8,
-            "maxwind_mph": 12.8,
-            "maxwind_kph": 20.5,
-            "totalprecip_mm": 0.02,
+            "maxtemp_c": 17,
+            "maxtemp_f": 62.6,
+            "mintemp_c": 11.5,
+            "mintemp_f": 52.7,
+            "avgtemp_c": 13.9,
+            "avgtemp_f": 57,
+            "maxwind_mph": 12.3,
+            "maxwind_kph": 19.8,
+            "totalprecip_mm": 0.05,
             "totalprecip_in": 0,
             "totalsnow_cm": 0,
             "avgvis_km": 10,
             "avgvis_miles": 6,
-            "avghumidity": 77,
+            "avghumidity": 78,
             "daily_will_it_rain": 0,
             "daily_chance_of_rain": 0,
             "daily_will_it_snow": 0,
@@ -208,7 +208,7 @@ if(response.error != null) {
               "text": "Sunny",
               "code": 1000
             },
-            "uv": 8
+            "uv": 9
           }
         }
       ]
