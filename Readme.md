@@ -94,125 +94,22 @@ if(response.error != null) {
   "status": "ok",
   "error": null,
   "data": {
-    "location": {
-      "name": "San Francisco",
-      "region": "California",
-      "country": "United States of America",
-      "lat": 37.78,
-      "lon": -122.42,
-      "tz_id": "America/Los_Angeles",
-      "localtime_epoch": 1715809997,
-      "localtime": "2024-05-15 14:53"
-    },
-    "current": {
-      "tempC": 17.2,
-      "tempF": 63,
-      "windMph": 16.1,
-      "windKph": 25.9,
-      "windDegree": 300,
-      "windDir": "WNW",
-      "pressureMb": 1013,
-      "pressureIn": 29.91,
-      "precipMm": 0,
-      "precipIn": 0,
-      "feelslikeC": 17.2,
-      "feelslikeF": 63,
-      "visKm": 16,
-      "visMiles": 9,
-      "gustMph": 20.6,
-      "gustKph": 33.1
-    },
-    "forecast": {
-      "forecastday": [
-        {
-          "date": "2024-05-15",
-          "date_epoch": 1715731200,
-          "day": {
-            "maxtemp_c": 16.7,
-            "maxtemp_f": 62.1,
-            "mintemp_c": 10.9,
-            "mintemp_f": 51.6,
-            "avgtemp_c": 13.6,
-            "avgtemp_f": 56.6,
-            "maxwind_mph": 13.2,
-            "maxwind_kph": 21.2,
-            "totalprecip_mm": 0.06,
-            "totalprecip_in": 0,
-            "totalsnow_cm": 0,
-            "avgvis_km": 10,
-            "avgvis_miles": 6,
-            "avghumidity": 80,
-            "daily_will_it_rain": 0,
-            "daily_chance_of_rain": 0,
-            "daily_will_it_snow": 0,
-            "daily_chance_of_snow": 0,
-            "condition": {
-              "text": "Sunny",
-              "code": 1000
-            },
-            "uv": 9
-          }
-        },
-        {
-          "date": "2024-05-16",
-          "date_epoch": 1715817600,
-          "day": {
-            "maxtemp_c": 17.3,
-            "maxtemp_f": 63.1,
-            "mintemp_c": 12,
-            "mintemp_f": 53.5,
-            "avgtemp_c": 14,
-            "avgtemp_f": 57.2,
-            "maxwind_mph": 12.8,
-            "maxwind_kph": 20.5,
-            "totalprecip_mm": 0.06,
-            "totalprecip_in": 0,
-            "totalsnow_cm": 0,
-            "avgvis_km": 10,
-            "avgvis_miles": 6,
-            "avghumidity": 81,
-            "daily_will_it_rain": 0,
-            "daily_chance_of_rain": 0,
-            "daily_will_it_snow": 0,
-            "daily_chance_of_snow": 0,
-            "condition": {
-              "text": "Sunny",
-              "code": 1000
-            },
-            "uv": 8
-          }
-        },
-        {
-          "date": "2024-05-17",
-          "date_epoch": 1715904000,
-          "day": {
-            "maxtemp_c": 17,
-            "maxtemp_f": 62.6,
-            "mintemp_c": 11.5,
-            "mintemp_f": 52.7,
-            "avgtemp_c": 13.9,
-            "avgtemp_f": 57,
-            "maxwind_mph": 12.3,
-            "maxwind_kph": 19.8,
-            "totalprecip_mm": 0.05,
-            "totalprecip_in": 0,
-            "totalsnow_cm": 0,
-            "avgvis_km": 10,
-            "avgvis_miles": 6,
-            "avghumidity": 78,
-            "daily_will_it_rain": 0,
-            "daily_chance_of_rain": 0,
-            "daily_will_it_snow": 0,
-            "daily_chance_of_snow": 0,
-            "condition": {
-              "text": "Sunny",
-              "code": 1000
-            },
-            "uv": 9
-          }
-        }
-      ]
-    }
+    "feelslikeC": 15.1,
+    "feelslikeF": 59.2,
+    "gustKph": 13.6,
+    "gustMph": 8.4,
+    "precipIn": 0,
+    "precipMm": 0,
+    "pressureIn": 30.05,
+    "pressureMb": 1018,
+    "tempC": 15.1,
+    "tempF": 59.2,
+    "visKm": 16,
+    "visMiles": 9,
+    "windDegree": 260,
+    "windDir": "W",
+    "windKph": 11.2,
+    "windMph": 6.9
   }
 }
 ```
