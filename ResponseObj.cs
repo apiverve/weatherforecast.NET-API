@@ -28,7 +28,7 @@ public class data
     public int pressureMb { get; set; }
 
     [JsonProperty("pressureIn")]
-    public int pressureIn { get; set; }
+    public double pressureIn { get; set; }
 
     [JsonProperty("precipMm")]
     public int precipMm { get; set; }
