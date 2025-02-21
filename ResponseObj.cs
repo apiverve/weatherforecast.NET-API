@@ -10,7 +10,7 @@ public class data
     public double tempC { get; set; }
 
     [JsonProperty("tempF")]
-    public int tempF { get; set; }
+    public double tempF { get; set; }
 
     [JsonProperty("windMph")]
     public double windMph { get; set; }
@@ -40,7 +40,7 @@ public class data
     public double feelslikeC { get; set; }
 
     [JsonProperty("feelslikeF")]
-    public int feelslikeF { get; set; }
+    public double feelslikeF { get; set; }
 
     [JsonProperty("visKm")]
     public int visKm { get; set; }
