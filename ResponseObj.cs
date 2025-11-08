@@ -4,72 +4,73 @@ using Newtonsoft.Json;
 
 namespace APIVerve
 {
-public class data
-{
-    [JsonProperty("tempC")]
-    public double tempC { get; set; }
+    /// <summary>
+    /// Data data
+    /// </summary>
+    public class Data
+    {
+        [JsonProperty("tempC")]
+        public double TempC { get; set; }
 
-    [JsonProperty("tempF")]
-    public double tempF { get; set; }
+        [JsonProperty("tempF")]
+        public double TempF { get; set; }
 
-    [JsonProperty("windMph")]
-    public double windMph { get; set; }
+        [JsonProperty("windMph")]
+        public double WindMph { get; set; }
 
-    [JsonProperty("windKph")]
-    public double windKph { get; set; }
+        [JsonProperty("windKph")]
+        public double WindKph { get; set; }
 
-    [JsonProperty("windDegree")]
-    public int windDegree { get; set; }
+        [JsonProperty("windDegree")]
+        public int WindDegree { get; set; }
 
-    [JsonProperty("windDir")]
-    public string windDir { get; set; }
+        [JsonProperty("windDir")]
+        public string WindDir { get; set; }
 
-    [JsonProperty("pressureMb")]
-    public int pressureMb { get; set; }
+        [JsonProperty("pressureMb")]
+        public int PressureMb { get; set; }
 
-    [JsonProperty("pressureIn")]
-    public double pressureIn { get; set; }
+        [JsonProperty("pressureIn")]
+        public double PressureIn { get; set; }
 
-    [JsonProperty("precipMm")]
-    public int precipMm { get; set; }
+        [JsonProperty("precipMm")]
+        public int PrecipMm { get; set; }
 
-    [JsonProperty("precipIn")]
-    public int precipIn { get; set; }
+        [JsonProperty("precipIn")]
+        public int PrecipIn { get; set; }
 
-    [JsonProperty("feelslikeC")]
-    public double feelslikeC { get; set; }
+        [JsonProperty("feelslikeC")]
+        public double FeelslikeC { get; set; }
 
-    [JsonProperty("feelslikeF")]
-    public double feelslikeF { get; set; }
+        [JsonProperty("feelslikeF")]
+        public double FeelslikeF { get; set; }
 
-    [JsonProperty("visKm")]
-    public int visKm { get; set; }
+        [JsonProperty("visKm")]
+        public int VisKm { get; set; }
 
-    [JsonProperty("visMiles")]
-    public int visMiles { get; set; }
+        [JsonProperty("visMiles")]
+        public int VisMiles { get; set; }
 
-    [JsonProperty("gustMph")]
-    public double gustMph { get; set; }
+        [JsonProperty("gustMph")]
+        public double GustMph { get; set; }
 
-    [JsonProperty("gustKph")]
-    public double gustKph { get; set; }
+        [JsonProperty("gustKph")]
+        public double GustKph { get; set; }
 
-}
+    }
+    /// <summary>
+    /// API Response object
+    /// </summary>
+    public class ResponseObj
+    {
+        [JsonProperty("status")]
+        public string Status { get; set; }
 
-public class ResponseObj
-{
-    [JsonProperty("status")]
-    public string status { get; set; }
+        [JsonProperty("error")]
+        public object Error { get; set; }
 
-    [JsonProperty("error")]
-    public object error { get; set; }
+        [JsonProperty("data")]
+        public Data Data { get; set; }
 
-    [JsonProperty("data")]
-    public data data { get; set; }
-
-    [JsonProperty("code")]
-    public int code { get; set; }
-
-}
-
+    }
 }
